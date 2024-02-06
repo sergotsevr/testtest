@@ -1,6 +1,5 @@
 package com.barabanov.demo.controllers.dto;
 
-import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
