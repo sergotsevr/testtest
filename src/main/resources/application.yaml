@@ -1,8 +1,10 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/renaissance_bank_demo
-    password: pass
+    url: jdbc:postgresql://localhost:5432/renaissance_bank_demo
+    password: postgres
     username: postgres
   jpa:
     hibernate:
       ddl-auto: validate
+openapi:
+  dev-url=http://localhost:8080:
